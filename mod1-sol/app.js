@@ -19,7 +19,7 @@ function LunchCheckController($scope)
         if(strarray[i].length >0) count++;
       }
       return count;
-		}
+		};
 	
 
 	$scope.checkIfTooMuch = function(){
@@ -40,5 +40,5 @@ function LunchCheckController($scope)
        }
     };
 
-}
+};
 })();
