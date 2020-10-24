@@ -23,7 +23,7 @@ function LunchCheckController($scope)
 	
 
 	$scope.checkIfTooMuch = function(){
-       switch (getMenuItemsCount($scope.menuItems)){
+       switch (getCount($scope.menuItems)){
          case 0:
            $scope.response = 'Please enter data first';
           
